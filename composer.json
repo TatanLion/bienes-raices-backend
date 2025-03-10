@@ -1,0 +1,21 @@
+{
+    "name": "jobna/bienes-raices-poo_php_inicio",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Jonathan Amaya",
+            "email": "correo@mail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7",
+        "phpmailer/phpmailer": "^6.9.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Model\\": "./models",
+            "MVC\\": "./",
+            "Controllers\\": "./controllers"
+        }
+    }
+}
